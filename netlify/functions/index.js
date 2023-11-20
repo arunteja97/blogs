@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import 'dotenv/config'
-import ServerlessHttp from 'serverless-http';
+import serverless from "serverless-http";
 
 import { createUser, signInUser, signOutUser } from './utils/firebase/auth.utils.js';
 import { getBlogs, addBlog, deleteBlog, updateBlog,
@@ -68,11 +68,11 @@ router.post('/signin', async (req, res) => {
     res.send(`user signedin`)
 })
 
-app.use('/.netlify/functions/api', router)
+api.use("/api/", router);
 
 // app.listen(port, async () => {
 //     console.log(`Listening on port ${port}`)
 // });
 
-export const handler = ServerlessHttp(app)
+export const handler = serverless(api);
 
