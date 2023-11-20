@@ -4,7 +4,7 @@ Simple react app to CREATE/READ/UPDATE/DELETE blogs.
 
 
 
-## Initilaize
+## Initialize
 ### Backend
 `$ cd backend && npm run dev`
 
@@ -16,7 +16,7 @@ Simple react app to CREATE/READ/UPDATE/DELETE blogs.
 ### Frontend
 * React
 * React-router-dom
-* Tailwin CSS
+* Tailwind CSS
 
 ### Backend
 * Express
