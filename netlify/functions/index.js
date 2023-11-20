@@ -68,7 +68,7 @@ router.post('/signin', async (req, res) => {
     res.send(`user signedin`)
 })
 
-api.use("/api/", router);
+app.use("/api/", router);
 
 // app.listen(port, async () => {
 //     console.log(`Listening on port ${port}`)
