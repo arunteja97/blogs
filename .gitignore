@@ -24,4 +24,4 @@ frontend/dist-ssr/
 *.sln
 *.sw?
 
-backend/config/
+backend/config/*
