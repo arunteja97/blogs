@@ -11,6 +11,12 @@ Simple react app to CREATE/READ/UPDATE/DELETE blogs.
 ### Frontend
 `$ cd frontend && npm run dev`
 
+## Samples
+
+![askd](./frontend/public/blogs-list.png)
+![askd](./frontend/public/create.png)
+![askd](./frontend/public/blog-view.png)
+
 ## Tools
 
 ### Frontend
@@ -25,3 +31,4 @@ Simple react app to CREATE/READ/UPDATE/DELETE blogs.
 ### Database
 
 * Firebase/Firestore
+
