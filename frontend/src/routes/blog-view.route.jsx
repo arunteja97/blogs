@@ -45,7 +45,7 @@ const BlogView = () => {
                 className="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-gray-100 hover:text-red-700 focus:z-10 focus:ring-4 focus:ring-gray-200">Delete</button>
             </div>
             <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-            <p class="whitespace-pre-line whitext-lg font-normal text-justify text-black lg:text-xl dark:text-gray-400">{content}</p>
+            <p class="whitespace-pre-line whitext-lg pb-32 font-normal text-justify text-black lg:text-xl dark:text-gray-400">{content}</p>
         </>
     );
 }

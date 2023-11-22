@@ -10,7 +10,7 @@ import {
     deleteDoc
 } from 'firebase/firestore';
 
-import FIREBASE_CONFIG from "../../config/firebase.config.js";
+import { FIREBASE_CONFIG } from "../../config/firebase.config.js";
 
 /*
 ----------------------

@@ -25,3 +25,5 @@ frontend/dist-ssr/
 *.sw?
 
 backend/config/*
+
+node_modules
